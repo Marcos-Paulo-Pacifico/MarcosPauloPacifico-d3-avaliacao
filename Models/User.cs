@@ -6,7 +6,14 @@ using System.Threading.Tasks;
 
 namespace MarcosPauloPacifico_d3_avaliacao.Models
 {
-    internal class Class1
+    public class User
     {
+        public string IdUser { get; set; } = string.Empty;
+
+        public string UserName { get; set; } = string.Empty;
+
+        public string Email { get; set; } = string.Empty;      
+                                               
+        public string Password { get; set; } = string.Empty;   
     }
 }
