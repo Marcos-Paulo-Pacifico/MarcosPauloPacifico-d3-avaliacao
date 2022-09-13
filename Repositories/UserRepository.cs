@@ -47,7 +47,7 @@ namespace MarcosPauloPacifico_d3_avaliacao.Repositories
 
             using (SqlConnection con = new SqlConnection(stringConnection))
             {
-                string querySelect = "SELECT * FROM Products";
+                string querySelect = "SELECT * FROM Users";
 
                 con.Open();
 
@@ -61,7 +61,7 @@ namespace MarcosPauloPacifico_d3_avaliacao.Repositories
                     {
                         User user = new()
                         {
-                            IdUser = rdr["IdUser"].ToString(),
+                            IdUser = rdr[0].ToString(),
                             UserName = rdr[1].ToString(),
                             Email = rdr[2].ToString(),
                             Password = rdr[3].ToString(),
