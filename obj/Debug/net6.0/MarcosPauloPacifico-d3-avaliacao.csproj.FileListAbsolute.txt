@@ -1,0 +1,15 @@
+C:\Dev\MarcosPauloPacifico-d3-avaliacao\bin\Debug\net6.0\MarcosPauloPacifico-d3-avaliacao.exe
+C:\Dev\MarcosPauloPacifico-d3-avaliacao\bin\Debug\net6.0\MarcosPauloPacifico-d3-avaliacao.deps.json
+C:\Dev\MarcosPauloPacifico-d3-avaliacao\bin\Debug\net6.0\MarcosPauloPacifico-d3-avaliacao.runtimeconfig.json
+C:\Dev\MarcosPauloPacifico-d3-avaliacao\bin\Debug\net6.0\MarcosPauloPacifico-d3-avaliacao.dll
+C:\Dev\MarcosPauloPacifico-d3-avaliacao\bin\Debug\net6.0\MarcosPauloPacifico-d3-avaliacao.pdb
+C:\Dev\MarcosPauloPacifico-d3-avaliacao\obj\Debug\net6.0\MarcosPauloPacifico-d3-avaliacao.csproj.AssemblyReference.cache
+C:\Dev\MarcosPauloPacifico-d3-avaliacao\obj\Debug\net6.0\MarcosPauloPacifico-d3-avaliacao.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\MarcosPauloPacifico-d3-avaliacao\obj\Debug\net6.0\MarcosPauloPacifico-d3-avaliacao.AssemblyInfoInputs.cache
+C:\Dev\MarcosPauloPacifico-d3-avaliacao\obj\Debug\net6.0\MarcosPauloPacifico-d3-avaliacao.AssemblyInfo.cs
+C:\Dev\MarcosPauloPacifico-d3-avaliacao\obj\Debug\net6.0\MarcosPauloPacifico-d3-avaliacao.csproj.CoreCompileInputs.cache
+C:\Dev\MarcosPauloPacifico-d3-avaliacao\obj\Debug\net6.0\MarcosPauloPacifico-d3-avaliacao.dll
+C:\Dev\MarcosPauloPacifico-d3-avaliacao\obj\Debug\net6.0\refint\MarcosPauloPacifico-d3-avaliacao.dll
+C:\Dev\MarcosPauloPacifico-d3-avaliacao\obj\Debug\net6.0\MarcosPauloPacifico-d3-avaliacao.pdb
+C:\Dev\MarcosPauloPacifico-d3-avaliacao\obj\Debug\net6.0\MarcosPauloPacifico-d3-avaliacao.genruntimeconfig.cache
+C:\Dev\MarcosPauloPacifico-d3-avaliacao\obj\Debug\net6.0\ref\MarcosPauloPacifico-d3-avaliacao.dll
