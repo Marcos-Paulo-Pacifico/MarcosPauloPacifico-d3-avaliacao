@@ -1,4 +1,5 @@
-﻿using MarcosPauloPacifico_d3_avaliacao.Models;
+﻿using MarcosPauloPacifico_d3_avaliacao.Interfaces;
+using MarcosPauloPacifico_d3_avaliacao.Models;
 using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
@@ -8,13 +9,13 @@ using System.Threading.Tasks;
 
 namespace MarcosPauloPacifico_d3_avaliacao.Repositories
 {
-    internal class UserRepository
+    internal class UserRepository : IUser
     {
         private readonly string stringConnection = "Server=labsoft.pcs.usp.br; Initial Catalog =db_17; User id=usuario_17; pwd=46773450829";
 
         private const string path = "database/users.txt";
 
-        private static string PrepareLineCSV(User user)
+        public string PrepareLineCSV(User user)
         {
             return $"O usuário {user.UserName}({user.IdUser}) acessou o sistema às {DateTime.Now.ToString()} do dia {DateTime.Now.Date.ToString()}";
         }
@@ -25,7 +26,7 @@ namespace MarcosPauloPacifico_d3_avaliacao.Repositories
             File.AppendAllLines(path, line);
         }
 
-        public static void CreateFolderFile()
+        public void CreateFolderFile()
         {
             string folder = path.Split("/")[0];
 
