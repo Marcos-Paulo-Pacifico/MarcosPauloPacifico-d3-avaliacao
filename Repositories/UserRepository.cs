@@ -17,7 +17,7 @@ namespace MarcosPauloPacifico_d3_avaliacao.Repositories
 
         public string PrepareLineCSV(User user)
         {
-            return $"O usuário {user.UserName}({user.IdUser}) acessou o sistema às {DateTime.Now.ToString()} do dia {DateTime.Now.Date.ToString()}";
+            return $"O usuário {user.UserName}({user.IdUser}) acessou o sistema em {DateTime.Now.ToString()}";
         }
 
         public void Create(User newUser)

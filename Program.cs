@@ -7,15 +7,18 @@ namespace MarcosPauloPacifico_d3_avaliacao
     {
         static void Main(string[] args)
         {
-            string option;
+            string option1;
+            string option2;
+
             UserRepository user = new();
+
             do
             {
                 Console.WriteLine("Qual opção deseja executar?:");
                 Console.WriteLine("1 - Acessar\n2 - Cancelar");
-                option = Console.ReadLine();
+                option1 = Console.ReadLine();
 
-                if(option == "1")
+                if(option1 == "1")
                 {
                     Console.WriteLine("Insira seu email:");
                     var email = Console.ReadLine();
@@ -29,11 +32,22 @@ namespace MarcosPauloPacifico_d3_avaliacao
                             Console.WriteLine("Login Efetuado com sucesso!");
                             user.CreateFolderFile();
                             user.Create(userRead);
+
+                            Console.WriteLine("Qual opção deseja executar?:");
+                            Console.WriteLine("1 - Deslogar\n2 - Encerrar Sistema");
+                            option2 = Console.ReadLine();
+
+                            if (option2 == "1")
+                            {
+                                option1 = "1";
+                            }
+                            else option1 = "2";
+
                         }
                     }
                 }
 
-            } while (option != "2");
+            } while (option1 != "2");
             
         }
     }
